@@ -1,0 +1,39 @@
+.blinkit-section {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.paan-header {
+  width: 100%;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.paan-header img {
+  width: 1260px;
+  height: 233px;
+  border-radius: 20px;
+  display: block;
+}
+
+.three-boxes {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.box {
+  flex: 0 0 auto;
+  width: 335px;
+}
+
+.box img {
+  width: 335px;
+  height: 195px;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+}

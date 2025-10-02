@@ -1,0 +1,78 @@
+.product-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 60px 20px;
+}
+
+.product-form-card {
+  background: #fff;
+  padding: 50px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0.123, 0.276);
+  width: 100%;
+  max-width: 600px;
+}
+
+.product-form-card h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: green;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.product-form-card .form-group {
+  margin-bottom: 20px;
+}
+
+.product-form-card label {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.product-form-card input,
+.product-form-card select {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1.5px solid green;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.product-form-card input:focus,
+.product-form-card select:focus {
+  border-color: green;
+  box-shadow: 0 0 0 2px rgba(214, 51, 132, 0.2);
+}
+
+.form-error {
+  color: #e63946;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.product-form-card button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #3b6a24;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-form-card button:hover {
+  background-color: #67b73f;
+}  
