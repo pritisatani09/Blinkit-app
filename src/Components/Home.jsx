@@ -18,7 +18,7 @@ const Home = () => {
   const [filteredData, setFilteredData] = useState([]);
   const [sortOption, setSortOption] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const productsPerPage = 6; // 6 cards per page
+  const productsPerPage = 6; // still 6 per page
 
   // Load products
   useEffect(() => {
@@ -157,7 +157,7 @@ const Home = () => {
           <Row className="products-grid gx-3">
             {currentProducts.length > 0 ? (
               currentProducts.map((product) => (
-                <Col key={product.id} lg={2} md={3} sm={6} xs={12} className="mb-4">
+                <Col key={product.id} lg={3} md={4} sm={6} xs={12} className="mb-4">
                   <div className="product-card">
                     <img
                       src={product.image || "https://via.placeholder.com/150"}
